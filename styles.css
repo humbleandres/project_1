@@ -91,3 +91,36 @@ button:hover {
     width: 400px;
     height: 200px;
 }
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.square-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+}
+
+.square-container p {
+    color: #474747;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: solid 3px #3882F6;
+    border-radius: 10px;
+}
